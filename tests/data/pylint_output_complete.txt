@@ -1,0 +1,91 @@
+************* Module ascii-zoo.language.tokenizer
+language/tokenizer.py:6: [C0301(line-too-long), ] Line too long (119/100)
+language/tokenizer.py:9: [C0303(trailing-whitespace), ] Trailing whitespace
+language/tokenizer.py:73: [C0301(line-too-long), ] Line too long (117/100)
+language/tokenizer.py:108: [C0301(line-too-long), ] Line too long (105/100)
+language/tokenizer.py:126: [C0301(line-too-long), ] Line too long (116/100)
+language/tokenizer.py:134: [C0301(line-too-long), ] Line too long (108/100)
+language/tokenizer.py:147: [C0301(line-too-long), ] Line too long (115/100)
+language/tokenizer.py:152: [C0301(line-too-long), ] Line too long (116/100)
+language/tokenizer.py:199: [C0301(line-too-long), ] Line too long (119/100)
+language/tokenizer.py:1: [C0111(missing-docstring), ] Missing module docstring
+language/tokenizer.py:15: [C0111(missing-docstring), Chars] Missing class docstring
+language/tokenizer.py:22: [C0111(missing-docstring), Chars.has_more_chars] Missing method docstring
+language/tokenizer.py:26: [C0111(missing-docstring), Chars.current] Missing method docstring
+language/tokenizer.py:29: [C0111(missing-docstring), Chars.step_back] Missing method docstring
+language/tokenizer.py:31: [R0123(literal-comparison), Chars.step_back] Comparison to literal
+language/tokenizer.py:34: [C0111(missing-docstring), Chars.view_all_following_chars] Missing method docstring
+language/tokenizer.py:44: [R0123(literal-comparison), Chars.__next__] Comparison to literal
+language/tokenizer.py:53: [C0111(missing-docstring), Token] Missing class docstring
+language/tokenizer.py:77: [R1705(no-else-return), Token.__eq__] Unnecessary "elif" after "return"
+language/tokenizer.py:85: [C0111(missing-docstring), Tokens] Missing class docstring
+language/tokenizer.py:91: [C0111(missing-docstring), Tokens.append] Missing method docstring
+language/tokenizer.py:115: [C0111(missing-docstring), Tokens.step] Missing method docstring
+language/tokenizer.py:118: [C0111(missing-docstring), Tokens.get_and_step] Missing method docstring
+language/tokenizer.py:123: [C0111(missing-docstring), Tokens.get_check_and_step] Missing method docstring
+language/tokenizer.py:129: [C0111(missing-docstring), Tokens.get_check_type_and_step] Missing method docstring
+language/tokenizer.py:131: [R1705(no-else-return), Tokens.get_check_type_and_step] Unnecessary "else" after "return"
+language/tokenizer.py:135: [E0602(undefined-variable), Tokens.get_check_type_and_step] Undefined variable 'expected_type'
+language/tokenizer.py:138: [C0111(missing-docstring), Tokens.get_symbol_and_step] Missing method docstring
+language/tokenizer.py:141: [C0111(missing-docstring), Tokens.get_number_and_step] Missing method docstring
+language/tokenizer.py:144: [C0111(missing-docstring), Tokens.stop_after] Missing method docstring
+language/tokenizer.py:179: [C0111(missing-docstring), ShapeTokenizer] Missing class docstring
+language/tokenizer.py:185: [C0111(missing-docstring), ShapeTokenizer.matches] Missing method docstring
+language/tokenizer.py:189: [C0111(missing-docstring), ShapeTokenizer.token] Missing method docstring
+language/tokenizer.py:191: [R0123(literal-comparison), ShapeTokenizer.token] Comparison to literal
+language/tokenizer.py:195: [R0123(literal-comparison), ShapeTokenizer.token] Comparison to literal
+language/tokenizer.py:203: [C0111(missing-docstring), read] Missing function docstring
+language/tokenizer.py:2: [W0611(unused-import), ] Unused import pytest
+************* Module ascii-zoo.language.ast_nodes
+language/ast_nodes.py:2: [C0301(line-too-long), ] Line too long (101/100)
+language/ast_nodes.py:67: [C0303(trailing-whitespace), ] Trailing whitespace
+language/ast_nodes.py:92: [C0301(line-too-long), ] Line too long (105/100)
+language/ast_nodes.py:95: [C0303(trailing-whitespace), ] Trailing whitespace
+language/ast_nodes.py:125: [C0301(line-too-long), ] Line too long (103/100)
+language/ast_nodes.py:139: [C0301(line-too-long), ] Line too long (104/100)
+language/ast_nodes.py:151: [C0301(line-too-long), ] Line too long (115/100)
+language/ast_nodes.py:172: [C0301(line-too-long), ] Line too long (109/100)
+language/ast_nodes.py:173: [C0301(line-too-long), ] Line too long (119/100)
+language/ast_nodes.py:200: [C0301(line-too-long), ] Line too long (118/100)
+language/ast_nodes.py:33: [C0111(missing-docstring), curly_braces] Missing function docstring
+language/ast_nodes.py:39: [C0111(missing-docstring), OverrideNode] Missing class docstring
+language/ast_nodes.py:48: [C0111(missing-docstring), OverrideNode.parse] Missing method docstring
+language/ast_nodes.py:54: [C0111(missing-docstring), OverrideNode.evaluate] Missing method docstring
+language/ast_nodes.py:50: [W0201(attribute-defined-outside-init), OverrideNode.parse] Attribute 'animal_name' defined outside __init__
+language/ast_nodes.py:51: [W0201(attribute-defined-outside-init), OverrideNode.parse] Attribute 'attribute_node' defined outside __init__
+language/ast_nodes.py:80: [C0111(missing-docstring), DefineNode.parse] Missing method docstring
+language/ast_nodes.py:83: [W0201(attribute-defined-outside-init), DefineNode.parse] Attribute 'animal_type_name' defined outside __init__
+language/ast_nodes.py:104: [C0111(missing-docstring), AttributeNode] Missing class docstring
+language/ast_nodes.py:113: [C0111(missing-docstring), AttributeNode.parse] Missing method docstring
+language/ast_nodes.py:119: [W0201(attribute-defined-outside-init), AttributeNode.parse] Attribute 'attribute_name' defined outside __init__
+language/ast_nodes.py:122: [W0201(attribute-defined-outside-init), AttributeNode.parse] Attribute 'attribute_name' defined outside __init__
+language/ast_nodes.py:120: [W0201(attribute-defined-outside-init), AttributeNode.parse] Attribute 'attribute_value' defined outside __init__
+language/ast_nodes.py:125: [W0201(attribute-defined-outside-init), AttributeNode.parse] Attribute 'attribute_value' defined outside __init__
+language/ast_nodes.py:128: [W0201(attribute-defined-outside-init), AttributeNode.parse] Attribute 'attribute_value' defined outside __init__
+language/ast_nodes.py:136: [W0201(attribute-defined-outside-init), AttributeNode.parse] Attribute 'attribute_value' defined outside __init__
+language/ast_nodes.py:104: [R0903(too-few-public-methods), AttributeNode] Too few public methods (1/2)
+language/ast_nodes.py:156: [C0111(missing-docstring), CreateNode.parse] Missing method docstring
+language/ast_nodes.py:164: [C0111(missing-docstring), CreateNode.evaluate] Missing method docstring
+language/ast_nodes.py:159: [W0201(attribute-defined-outside-init), CreateNode.parse] Attribute 'animal_type_name' defined outside __init__
+language/ast_nodes.py:161: [W0201(attribute-defined-outside-init), CreateNode.parse] Attribute 'animal_name' defined outside __init__
+language/ast_nodes.py:184: [C0111(missing-docstring), PutNode.parse] Missing method docstring
+language/ast_nodes.py:197: [C0111(missing-docstring), PutNode.get_relative_position] Missing method docstring
+language/ast_nodes.py:197: [R0201(no-self-use), PutNode.get_relative_position] Method could be a function
+language/ast_nodes.py:203: [C0111(missing-docstring), PutNode.evaluate] Missing method docstring
+language/ast_nodes.py:187: [W0201(attribute-defined-outside-init), PutNode.parse] Attribute 'animal_name' defined outside __init__
+language/ast_nodes.py:190: [W0201(attribute-defined-outside-init), PutNode.parse] Attribute 'x_relative_position' defined outside __init__
+language/ast_nodes.py:193: [W0201(attribute-defined-outside-init), PutNode.parse] Attribute 'y_relative_position' defined outside __init__
+************* Module ascii-zoo.language.asciizoo
+language/asciizoo.py:1: [C0111(missing-docstring), ] Missing module docstring
+language/asciizoo.py:11: [C0111(missing-docstring), MyPrompt] Missing class docstring
+language/asciizoo.py:15: [W0221(arguments-differ), MyPrompt.onecmd] Parameters differ from overridden 'onecmd' method
+language/asciizoo.py:18: [W0703(broad-except), MyPrompt.onecmd] Catching too general exception Exception
+language/asciizoo.py:18: [C0103(invalid-name), MyPrompt.onecmd] Variable name "e" doesn't conform to snake_case naming style
+language/asciizoo.py:25: [C0111(missing-docstring), run_program] Missing function docstring
+language/asciizoo.py:36: [C0111(missing-docstring), run_program_then_repl] Missing function docstring
+language/asciizoo.py:43: [E1120(no-value-for-parameter), ] No value for argument 'input_file' in function call
+language/asciizoo.py:43: [E1120(no-value-for-parameter), ] No value for argument 'repl' in function call
+
+------------------------------------------------------------------
+Your code has been rated at 6.68/10 (previous run: 6.68/10, +0.00)
+

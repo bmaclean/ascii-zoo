@@ -1,0 +1,10 @@
+language/ast_nodes.py:123: [C0111(missing-docstring), DefineNode.parse] Missing method docstring
+language/ast_nodes.py:126: [W0201(attribute-defined-outside-init), DefineNode.parse] Attribute 'animal_type_name' defined outside __init__
+language/ast_nodes.py:147: [C0111(missing-docstring), AttributeNode] Missing class docstring
+language/ast_nodes.py:156: [C0111(missing-docstring), AttributeNode.parse] Missing method docstring
+language/ast_nodes.py:162: [W0201(attribute-defined-outside-init), AttributeNode.parse] Attribute 'attribute_name' defined outside __init__
+language/ast_nodes.py:165: [W0201(attribute-defined-outside-init), AttributeNode.parse] Attribute 'attribute_name' defined outside __init__
+language/ast_nodes.py:163: [W0201(attribute-defined-outside-init), AttributeNode.parse] Attribute 'attribute_value' defined outside __init__
+language/ast_nodes.py:168: [W0201(attribute-defined-outside-init), AttributeNode.parse] Attribute 'attribute_value' defined outside __init__
+language/ast_nodes.py:171: [W0201(attribute-defined-outside-init), AttributeNode.parse] Attribute 'attribute_value' defined outside __init__
+language/ast_nodes.py:179: [W0201(attribute-defined-outside-init), AttributeNode.parse] Attribute 'attribute_value' defined outside __init__
