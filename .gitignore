@@ -11,3 +11,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Editor files
+.vscode/
+
+# Project sample data
+sample_code/
